@@ -1,0 +1,9 @@
+
+0°
+create this project structure
+   + src (folder)
+1°
+npx tsc --init --rootdir src --outdir lib
+2°
+npx tsc --watch
+

@@ -1,0 +1,24 @@
+
+
+
+npx tsc --init --rootdir src --outdir lib
+
+npx tsc --watch
+
+
+1° npx tsc --init --rootdir src --outdir lib:
+------------------------------------------------------------------------------------------------------------------------
+This command initializes a new TypeScript project.
+The tsc --init command creates a tsconfig.json file in your project directory.
+This file specifies the root files and the compiler options required to compile the project.
+The --rootdir src option specifies that the root files of your TypeScript project are in the 'src' directory.
+The --outdir lib option specifies that the output (compiled JavaScript files) should be placed in the 'lib' directory.
+
+2° npx tsc --watch:
+------------------------------------------------------------------------------------------------------------------------
+This command then starts the TypeScript compiler in watch mode.
+The compiler will automatically recompile your project whenever any of your TypeScript files are changed.
+This is handy during development as it means you do not need to manually recompile your code after making changes.
+
+
+

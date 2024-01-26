@@ -1,0 +1,12 @@
+
+#0°
+ create this project structure
+    + src (folder)
+# make sure that nodemon is installed:
+https://www.npmjs.com/package/nodemon
+ npm install -g nodemon # or using yarn: yarn global add nodemon
+
+#1°
+ npx tsc --init --rootdir src --outdir lib
+#2°
+ nodemon --ext ts --exec 'tsc && node lib/index.js'
